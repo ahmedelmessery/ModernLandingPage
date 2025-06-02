@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from "motion/react";
 import {fadeIn, textVariant} from "../utils/motion";
 import {text} from "framer-motion/client";
-
+import heroImage from "../assets/hero-image.png"; // Adjust the path as necessary
 const Hero = () => {
   return (
     <section
@@ -66,7 +66,7 @@ const Hero = () => {
         className="w-full md:w-1/2 mt-16 md:mt-0 pt-0 md:pl-12">
         <div className="relative">
           <img
-            src="src\assets\hero-image.png"
+            src={heroImage}
             alt="hero image"
             className="rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300"
           />
