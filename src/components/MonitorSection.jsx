@@ -1,6 +1,8 @@
 import React from "react";
 import {motion} from "motion/react";
 import {fadeIn, scale, slideIn, textVariant} from "../utils/motion";
+import schedulePhoto from "../assets/monitor-card.webp"
+
 const MonitorSection = () => {
   return (
     <section className="max-w-7xl mx-auto  px-4  " id="monitor">
@@ -28,7 +30,7 @@ const MonitorSection = () => {
         </div>
 
         <div className="w-full md:w-1/2">
-          <img src="src\assets\monitor-card.webp" alt="monitor" className="" />
+          <img src={schedulePhoto} alt="monitor" className="" />
         </div>
       </motion.div>
     </section>

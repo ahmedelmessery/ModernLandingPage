@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "motion/react";
 import {fadeIn, slideIn, textVariant} from "../utils/motion";
-
+import schedulePhoto from "../assets/stats.webp"
 const ScheduleSection = () => {
   return (
     <section className="max-w-7xl mx-auto  px-4  " id="schedule">
@@ -12,7 +12,7 @@ const ScheduleSection = () => {
         className="flex justify-between items-center gap-6 mb-12 max-md:flex-col">
         <div className="mt-6 w-full md:w-1/2">
           <img
-            src="src\assets\stats.webp"
+            src={schedulePhoto}
             alt="stats"
             className="w-full h-auto"
           />
